@@ -173,3 +173,13 @@ curl -X POST https://identityreconciliation-2.onrender.com/identify \
 Pull requests are welcome!
 Please open an issue first to discuss what you want to change.
 
+---
+
+## Contact
+For questions or feedback, please contact:
+
+**Email:** your-email@example.com
+
+**GitHub Issues:** https://github.com/yourusername/identity-reconciliation/issues
+
+---
