@@ -36,13 +36,6 @@ It is designed to **identify and consolidate user identities** based on `email` 
 │   │   └── logger.ts              # Logger configuration (e.g., Winston or console-based)
 |   ├── index.ts               # Entry file (can re-export others)
 ├── .env                     # Environment variables
-├── .gitignore               # Files/folders ignored by Git
-├── combined.log             # Combined log output
-├── error.log                # Error-specific log output
-├── package.json             # Project metadata and dependencies
-├── package-lock.json        # Locked versions of dependencies
-├── README.md                # Project documentation (generated/maintained manually)
-├── tsconfig.json            # TypeScript configuration
 
 ```
 
