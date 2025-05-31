@@ -134,7 +134,12 @@ Identify or create a contact.
 ---
 
 ## Testing 
-Test the API endpoint: https://identityreconciliation-2.onrender.com/identify
+Test the API endpoint on curl or Postman
+```json
+curl -X POST https://identityreconciliation-2.onrender.com/identify \
+-H "Content-Type: application/json" \
+-d '{"email":"mcfly@hillvalley.edu","phoneNumber":"123456"}'
+```
 
 ## 🧠 Logic Summary
 
