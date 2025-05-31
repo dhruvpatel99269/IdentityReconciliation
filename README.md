@@ -133,6 +133,9 @@ Identify or create a contact.
 
 ---
 
+## Testing 
+Test the API endpoint: https://identityreconciliation-2.onrender.com/identify
+
 ## 🧠 Logic Summary
 
 1. **Check if email or phoneNumber exists** in any contact.
