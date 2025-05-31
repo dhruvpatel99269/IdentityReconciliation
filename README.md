@@ -180,8 +180,8 @@ Please open an issue first to discuss what you want to change.
 ## Contact
 For questions or feedback, please contact:
 
-**Email:** your-email@example.com
+**Email:** 99269dhruvpatel@gmail.com
 
-**GitHub Issues:** https://github.com/yourusername/identity-reconciliation/issues
+**GitHub Issues:** https://github.com/dhruvpatel99269/IdentityReconciliation/issues
 
 ---
