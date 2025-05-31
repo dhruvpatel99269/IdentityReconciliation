@@ -1,7 +1,7 @@
 import express, { Application } from 'express';
 import dotenv from 'dotenv';
 import { connectDB } from './config/db';
-import identityRoutes from './routes/IdentityRoutes';
+import identityRoutes from './routes/identityRoutes';
 import { errorHandler } from './middleware/errorHandler';
 import { logger } from './utils/logger';
 
