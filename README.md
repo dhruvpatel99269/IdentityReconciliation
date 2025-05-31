@@ -6,7 +6,7 @@ It is designed to **identify and consolidate user identities** based on `email` 
 
 ---
 
-## 🚀 Features
+## Features
 
 * ✅ Identify contacts using email or phone number
 * ✅ Link secondary contacts to primary contact
@@ -16,7 +16,7 @@ It is designed to **identify and consolidate user identities** based on `email` 
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 /src
@@ -30,7 +30,7 @@ It is designed to **identify and consolidate user identities** based on `email` 
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1️⃣ Prerequisites
 
@@ -74,7 +74,7 @@ http://localhost:3000
 
 ---
 
-## 🛠️ MongoDB Notes
+## MongoDB Notes
 
 Ensure the `contacts` collection **does NOT** have any invalid or legacy indexes like `id_1`.
 
@@ -94,7 +94,7 @@ db.contacts.dropIndex("id_1")
 
 ---
 
-## 📩 API Endpoint
+## API Endpoint
 
 ### **POST /identify**
 
@@ -143,7 +143,7 @@ curl -X POST https://identityreconciliation-2.onrender.com/identify \
 
 ---
 
-## 🧠 Logic Summary
+## Logic Summary
 
 1. **Check if email or phoneNumber exists** in any contact.
 2. If no match → create a **new primary contact**.
@@ -155,14 +155,14 @@ curl -X POST https://identityreconciliation-2.onrender.com/identify \
 
 ---
 
-## 🛡️ Error Handling
+## Error Handling
 
 * 400 → If both `email` and `phoneNumber` are missing.
 * 500 → For internal server errors.
 
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 * **Backend:** Node.js, Express.js
 * **Database:** MongoDB with Mongoose
@@ -170,7 +170,7 @@ curl -X POST https://identityreconciliation-2.onrender.com/identify \
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Pull requests are welcome!
 Please open an issue first to discuss what you want to change.
