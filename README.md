@@ -134,7 +134,7 @@ Identify or create a contact.
 ---
 
 ## Testing 
-Test the API endpoint on curl or Postman
+Test the API endpoint on curl or Postman at: https://identityreconciliation-2.onrender.com
 ```json
 curl -X POST https://identityreconciliation-2.onrender.com/identify \
 -H "Content-Type: application/json" \
