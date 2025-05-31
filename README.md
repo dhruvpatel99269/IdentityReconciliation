@@ -141,6 +141,8 @@ curl -X POST https://identityreconciliation-2.onrender.com/identify \
 -d '{"email":"mcfly@hillvalley.edu","phoneNumber":"123456"}'
 ```
 
+---
+
 ## 🧠 Logic Summary
 
 1. **Check if email or phoneNumber exists** in any contact.
